@@ -1,0 +1,16 @@
+
+
+<h2>We played Paper!<h2>
+
+<h2>They played 
+      <%= @comp_move %>!</h3\2> 
+
+<% if @comp_move == "rock" %>
+   <h2> <%= @win %> </h2>
+  <% elsif @comp_move == "scissors"  %> 
+   <h2> <%= @lose %> </h2>
+  <% else %>
+    <h2> <%= @tie %> </h2>
+ <% end %>
+
+<div><a href="/">Rules</a></div>
